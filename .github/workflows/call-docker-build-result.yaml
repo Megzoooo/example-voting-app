@@ -53,8 +53,8 @@ jobs:
       ### A list of the account/repo names for docker build. List should match what's enabled above
       ### defaults to:
       image-names: |
-        bretfisher/examplevotingapp_result
-        ghcr.io/bretfisher/example-voting-app-result
+        megzoo/examplevotingapp_result
+        ghcr.io/${{ github.repository }}-result
 
       ### REQUIRED set rules for tagging images, based on special action syntax:
       ### https://github.com/docker/metadata-action#tags-input
@@ -82,4 +82,4 @@ jobs:
       
       ### Create a PR comment with image tags and labels
       ### defaults to false
-      # comment-enable: false
+      # comment-enable: falsee
