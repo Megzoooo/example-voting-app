@@ -80,7 +80,7 @@ jobs:
       ### other options: linux/amd64,linux/arm64,linux/arm/v7
       platforms: linux/amd64,linux/arm64,linux/arm/v7
       
-      ### Create a PR comment with image tags and labels
-      ### defaults to false
-      # comment-enable: false
+      # Create a PR comment with image tags and labels
+      # defaults to false
+      comment-enable: true
 # ay haga hhk
